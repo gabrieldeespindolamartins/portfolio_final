@@ -1,13 +1,14 @@
 body { 
     margin: 0;
-    background-color: #e06a16;
-    color: aliceblue;
+    background-image: url(c3uhsgo1vx541.jpg);
+    color: aliceblue; 
     font-family: sans-serif;
 }
 
 .Cabeçalho {
     font-weight: bolder;
     background-color: #000000;
+    opacity: 90%;
     display: flex;
     font-size: large;
     margin-left: 0%;
@@ -42,13 +43,22 @@ a {
     color: #e06a16;
 }
 
-.sbr {
+
+.tri1 {
     transition: all 0.5s ease;
 }
 
-.sbr:hover {
+.tri1:hover {
     color: #e06a16;
     
+}
+
+.tri2 {
+    transition: all 0.5s ease;
+}
+
+.tri2:hover {
+    color: #e06a16;
 }
 
 .atv {
@@ -62,6 +72,7 @@ a {
 .meio {
     flex: auto;
     text-align: center;
+    
 }
 
 .Port {
@@ -72,7 +83,7 @@ a {
 
 .projeto {  
     background-color: #e06a16;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -103,6 +114,8 @@ a {
     border-radius: 5%;
 }
 
+
+
 section {
     padding: 20px 70px;
     display: flex;
@@ -111,8 +124,10 @@ section {
 }
 
 .meio{
-    background-color: rgb(0, 0, 0);
     border-radius: 30px;
+    background-color: #000000;
+    
+    
 }
 
 .lista {
